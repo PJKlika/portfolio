@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects – Peter James Klika</title>
+  <meta name="description" content="View my portfolio projects" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="top">
+
+  <header id="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <img src="imgs/logo.png" alt="PJK">
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-section">
+      <div class="container">
+        <div class="page-header">
+          <h1>My Projects</h1>
+          <p class="page-intro">A showcase of my creative and technical work</p>
+        </div>
+
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-category="all">All Projects</button>
+          <button class="filter-btn" data-category="game">Game Design</button>
+          <button class="filter-btn" data-category="arvr">AR/VR Design</button>
+          <button class="filter-btn" data-category="web">Web Design</button>
+        </div>
+
+        <div class="projects-grid">
+     
+          <article class="project-card" data-category="game">
+            <div class="project-image">
+              <img src="imgs/3dproject.png" alt="3D Design Project">
+            </div>
+            <div class="project-info">
+              <span class="project-label">Game Design</span>
+              <h2>3D Donut</h2>
+              <p class="project-category">Blender · 3D Modeling</p>
+              <p>My take on the classic Blender donut tutorial, but with a 4th of July twist. Spent way too long perfecting the icing drips and getting the sprinkles to look realistic. Great intro to Blender's shader nodes and lighting setup.</p>
+              <div class="project-tags">
+                <span class="tag">Blender</span>
+                <span class="tag">3D Modeling</span>
+                <span class="tag">Cycles Render</span>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="project-card" data-category="game">
+            <div class="project-image">
+              <img src="imgs/3dproject1.png" alt="3D Mug Design">
+            </div>
+            <div class="project-info">
+              <span class="project-label">Game Design</span>
+              <h2>Coffee Mug Model</h2>
+              <p class="project-category">Blender · 3D Modeling</p>
+              <p>Product visualization practice - modeled a coffee mug with realistic ceramic material and subtle wear details. Learned a lot about UV unwrapping and PBR texturing on this one.</p>
+              <div class="project-tags">
+                <span class="tag">Blender</span>
+                <span class="tag">PBR Texturing</span>
+                <span class="tag">Product Design</span>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="project-card" data-category="game">
+            <div class="project-image">
+              <img src="imgs/3dproject2.png" alt="Apartment Bedroom 3D Design">
+            </div>
+            <div class="project-info">
+              <span class="project-label">Game Design</span>
+              <h2>Bedroom Scene</h2>
+              <p class="project-category">Blender · Interior Design</p>
+              <p>Full bedroom interior with custom modeled furniture and props. Really focused on lighting here - used HDRI environment maps and area lights to get that moody afternoon vibe. Render took forever but worth it.</p>
+              <div class="project-tags">
+                <span class="tag">Blender</span>
+                <span class="tag">Environment Design</span>
+                <span class="tag">Lighting</span>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="project-card" data-category="game">
+            <div class="project-image">
+              <img src="imgs/gameproject.png" alt="Apple Jumper Game">
+            </div>
+            <div class="project-info">
+              <span class="project-label">Game Design</span>
+              <h2>Apple Jumper</h2>
+              <p class="project-category">Unity · C#</p>
+              <p>2D platformer built in Unity - my first complete game! Players jump through levels collecting apples while avoiding obstacles. Coded all the movement in C# and learned about Unity's physics system and collision detection.</p>
+              <div class="project-tags">
+                <span class="tag">Unity</span>
+                <span class="tag">C#</span>
+                <span class="tag">2D Game Dev</span>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="project-card" data-category="arvr">
+            <div class="project-image">
+              <img src="imgs/arproject.png" alt="AR Project">
+            </div>
+            <div class="project-info">
+              <span class="project-label">AR/VR Design</span>
+              <h2>AR Flashcards</h2>
+              <p class="project-category">Unity · AR Development</p>
+              <p>AR app that brings flashcards to life on mobile. Point your phone at a card and see 3D objects pop up. Built with Unity AR Foundation - marker tracking was surprisingly tricky to get working smoothly.</p>
+              <div class="project-tags">
+                <span class="tag">Unity AR</span>
+                <span class="tag">Mobile</span>
+                <span class="tag">C#</span>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="project-card" data-category="arvr">
+            <div class="project-image">
+              <img src="imgs/vrproject.png" alt="VR Project">
+            </div>
+            <div class="project-info">
+              <span class="project-label">AR/VR Design</span>
+              <h2>Planet Golf VR</h2>
+              <p class="project-category">Unity · VR Development</p>
+              <p>Educational VR experience where you explore a planetarium learning about each planet in the solar system. Then you exit to a Mars-like environment where you play golf trying to hit flying saucers. Combines learning with fun gameplay!</p>
+              <div class="project-tags">
+                <span class="tag">Unity VR</span>
+                <span class="tag">Educational</span>
+                <span class="tag">Game Design</span>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="project-card" data-category="web">
+            <div class="project-image">
+              <img src="imgs/webproject.png" alt="Web Project">
+            </div>
+            <div class="project-info">
+              <span class="project-label">Web Design</span>
+              <h2>Change Calculator</h2>
+              <p class="project-category">JavaScript · HTML/CSS</p>
+              <p>Simple web app that calculates change and breaks it down into bills and coins. Built with vanilla JS - no frameworks. Good practice with DOM manipulation and working through the math logic for coin combinations.</p>
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">HTML/CSS</span>
+                <span class="tag">DOM</span>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="project-card" data-category="web">
+            <div class="project-image">
+              <img src="imgs/webproject2.png" alt="San Diego Top Spots">
+            </div>
+            <div class="project-info">
+              <span class="project-label">Web Design</span>
+              <h2>San Diego Top Spots</h2>
+              <p class="project-category">Node.js · Express</p>
+              <p>My first Node.js project - a website showing cool spots around San Diego. Backend built with Express, serving up location data and handling routing. Still working on adding a map API integration.</p>
+              <div class="project-tags">
+                <span class="tag">Node.js</span>
+                <span class="tag">Express</span>
+                <span class="tag">Backend</span>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="project-card" data-category="web">
+            <div class="project-image">
+              <img src="imgs/webproject1.png" alt="Mortgage Calculator">
+            </div>
+            <div class="project-info">
+              <span class="project-label">Web Design</span>
+              <h2>Mortgage Calculator</h2>
+              <p class="project-category">React · JavaScript</p>
+              <p>React app that calculates monthly mortgage payments and shows an amortization schedule. Used React hooks for state management and built reusable input components. The math formula took me a minute to figure out!</p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Hooks</span>
+                <span class="tag">Financial App</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="page-cta">
+          <h2>Interested in working together?</h2>
+          <p>I'm always open to discussing new projects and opportunities.</p>
+          <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer">
+    <div class="container">
+      <p>© 2025 Peter James Klika. All rights reserved.</p>
+      <p><a href="#top">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="scroll.js"></script>
+</body>
+</html>
