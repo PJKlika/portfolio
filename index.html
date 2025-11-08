@@ -15,7 +15,15 @@
         <img src="imgs/logo.png" alt="PJK">
       </a>
 
-      <nav class="primary-nav" aria-label="Primary">
+      <!-- Burger button -->
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+
+      <nav id='site-nav' class="primary-nav" aria-label="Primary" hidden>
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -154,6 +162,7 @@
     </div>
   </footer>
 
-  <script src="scroll.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/burger.js" defer></script>
 </body>
 </html>
